@@ -1,5 +1,5 @@
 max_calories = 0
-with open('input_01.txt') as f:
+with open('input.txt') as f:
     lines = [x.replace('\n','') for x in f.readlines()]
     current_calories = 0
     for line in lines:
